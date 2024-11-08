@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --background: #22223b ;
+  --heading:#c9ada7;
+  --body: #f2e9e4;
+  --color-box: #3c1642;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-color: var(--background);
+  color: var(--body);
+
+}
+
+h3{
+  font-size: 22px;
+}
+
+h4{
+  font-size: 18px;
+}
+p{
+  font-size: 17px;
+}
+
+h1{
+  font-size: 24px;
+  letter-spacing: 4px;
+}
+
+a,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading);
+ 
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: var(--body);
+}
+
+ul {
+  list-style-type: none;
+}
+
+main {
+  height: calc(100vh - 180px - 80px);
+  scroll-behavior: smooth;
+}
+
+section {
+  min-height: 100%;
+}
+
+#app{
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+}
+

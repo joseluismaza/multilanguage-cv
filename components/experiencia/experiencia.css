@@ -1,0 +1,19 @@
+.experiencia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 30px;
+}
+
+.experiencia ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 600px;
+}
+
+.experiencia li{
+  line-height: 30px;
+}
