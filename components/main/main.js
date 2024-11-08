@@ -2,7 +2,7 @@ import { Educacion } from "../educacion/educacion";
 import { SobreMi } from "../sobremi/sobremi";
 import { Experiencia } from "../experiencia/experiencia";
 import { translate } from "../../main";
-import "./Main.css";
+import "./main.css";
 import { Proyectos } from "../proyectos/proyectos";
 
 let show = "Educación"; // Inicializamos el texto del botón
